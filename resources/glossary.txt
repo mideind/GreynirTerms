@@ -1,0 +1,69 @@
+# glossary.txt
+
+# This file contains a list of Icelandic noun lemmas with a /gender
+# suffix, followed by one or more corresponding English noun lemmas
+
+# This glossary is used to find matching noun pairs in source data,
+# enabling those sentence pairs to become templates for substitution of rare terms.
+# The glossary should contain moderately common, moderately specific
+# noun lemmas and common English counterparts. Note that the English
+# counterparts should be ordered by priority, for instance longer constructs
+# ('large corporation') should come before shorter ones ('corporation').
+# The English words and phrases should be correctly pluralizable with
+# the rule-based pluralizer.
+
+# rannsókn/kvk, research, study, investigation
+# reynsla/kvk, experience,  # Too much danger of confusion with verb
+
+aðferð/kvk, method
+aðferðafræði/kvk, methodology
+aðildarríki/hk, member state
+andrúmsloft/hk, atmosphere
+áhugamál/hk, hobby, pastime
+ákvörðun/kvk, decision
+dómstóll/kk, tribunal, court
+efnahagur/kk, economy
+einangrun/kvk, isolation
+einstaklingur/kk, individual, person
+foreldri/hk, parent
+fræðimaður/kk, scholar, academic, researcher
+fyrirtæki/hk, company, corporation, enterprise
+fæðing/kvk, childbirth, birth
+hagkerfi/hk, economy
+hlutverk/hk, role
+hugbúnaður/kk, software
+hæfileiki/kk, talent
+innflytjandi/kk, immigrant
+kennari/kk, teacher, instructor
+kenning/kvk, theory
+lausn/kvk, solution
+loftslag/hk, atmosphere
+mínúta/kvk, minute
+niðurstaða/kvk, conclusion, result
+prótein/hk, protein
+reynsla/kvk, experience
+samfélag/hk, community
+samkeppni/kvk, competition
+sjúkdómur/kk, disease
+sjúklingur/kk, patient
+skóli/kk, school
+háskóli/kk, university
+slys/hk, accident
+spurning/kvk, question
+staðsetning/kvk, location
+stjórnarskrá/kvk, constitution
+stofnun/kvk, institution
+stórfyrirtæki/hk, large corporation, corporation, company, enterprise
+stuðningur/kk, support
+styrkleiki/kk, strength
+sveigjanleiki/kk, flexibility
+unglingur/kk, young adult, teenager
+verkefni/hk, project
+viðbragð/hk, reaction, response
+viðhorf/hk, attitude
+viðtal/hk, interview
+vinnuafl/hk, labor, labour
+vörumerki/hk, trade mark, trademark, logo, brand
+þátttakandi/kk, participant
+þjálfun/kvk, training
+þrýstingur/kk, pressure
