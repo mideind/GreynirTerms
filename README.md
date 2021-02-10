@@ -45,7 +45,7 @@ In phase 2, to *generate a synthetic parallel corpus* containing the rare terms:
 python main.py template.tsv synthetic.tsv --generate --glossary=resources/terms.txt --count=50
 ```
 
-The first parameter is the input (template) file; if left out, `stdin` is read.
+The first parameter is the input (template) file generated in phase 1; if left out, `stdin` is read.
 
 The second parameter is the output (synthetic corpus) file; if left out, the output is written to `stdout`.
 
@@ -81,6 +81,22 @@ rannsókn/kvk, investigation, study
 This entry causes all forms of the lemma _rannsókn_, along with the corresponding
 English form (_investigation/investigations/study/studies_), to be eligible as
 placeholders in templates, for female-gendered nouns.
+
+The rare term glossary file has the following format:
+
+```
+icelandic-noun-lemma/category, english-lemma-singular [, english-lemma-plural]
+```
+
+Example:
+
+```
+rauðdvergur/kk, red dwarf, red dwarves
+```
+
+If the English lemma is given only in the singular, a plural form is automatically
+generated via heuristics. These are pretty good so an explicit plural should only
+be required in very irregular cases.
 
 The GreynirTerms software is careful about maintaining correspondence between
 genders, cases, numbers, determiners and casing (upper/lower case) within the
