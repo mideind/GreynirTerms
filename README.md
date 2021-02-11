@@ -80,7 +80,7 @@ rannsókn/kvk, investigation, study
 
 This entry causes all forms of the lemma _rannsókn_, along with the corresponding
 English form (_investigation/investigations/study/studies_), to be eligible as
-placeholders in templates, for female-gendered nouns.
+placeholders in templates, for feminine nouns.
 
 The rare term glossary file has the following format:
 
