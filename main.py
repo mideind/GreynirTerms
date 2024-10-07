@@ -62,7 +62,7 @@ from collections import defaultdict
 import inflect  # type: ignore
 
 from tokenizer import TOK, detokenize
-from reynir import Greynir, Sentence, Terminal
+from reynir.reynir import Greynir, _Sentence as Sentence, Terminal
 from reynir.bindb import BIN_Db
 
 

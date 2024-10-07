@@ -1,2 +1,2 @@
 inflect
-reynir
+reynir==2.10.1
